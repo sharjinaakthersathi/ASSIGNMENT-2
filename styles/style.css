@@ -1,6 +1,5 @@
 .first-section {
     background-color: rgb(251, 242, 230);
-    margin: auto;
 
 }
 
@@ -8,6 +7,7 @@
     padding: 20px 80px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
+
 
 }
 
@@ -26,6 +26,7 @@
 }
 
 .paragraph-1 {
+    color: darkgrey;
     padding-left: 380px;
     font-style: inherit;
     font-size: small;
@@ -37,22 +38,148 @@
 .home-logo {
     display: inline-flex;
     padding-left: 800px;
-
-
 }
 
 .btn-1 {
-    padding: 15px 15px 15px 15px;
-    background-color: rgb(240, 160, 13);
+    padding: 10px 15px 15px 15px;
+    background-color: rgb(240, 137, 11);
     color: white;
     border-radius: 10px;
     border: 50px;
+    font-weight: 20px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+}
+
+.btn-div-1 {
+    padding-left: 550px;
+    padding-bottom: 50px;
 }
 
 .banner-img {
     height: 450px;
     width: 900px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+
+
+/*seconed section*/
+
+.four-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    height: 100px;
+    width: 100px;
     padding-left: 80px;
+
+}
+
+.img-1 .img-2 .img-3 .img-4 {
+    height: 200px;
+    width: 200px;
+}
+
+.section-two {
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.sec-tow-writing-part {
+    padding-left: 820px;
+}
+
+.quick-h1 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+}
+
+.span {
+    color: darkgrey;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+
+}
+
+.fetures {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+    color: rgb(240, 137, 11);
+
+
+}
+
+/*third section*/
+
+.architec-pic {
+    height: 650px;
+    width: 450px;
+    padding-left: 600px;
+}
+
+.section-third {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 350px;
+}
+
+.third-sec-writing {
+    padding-left: 50px;
+}
+
+.btn-3 {
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(240, 137, 11);
+    color: white;
+    border-radius: 10px;
+    border: 80px;
+    font-weight: 800px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.exprience {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 50px;
+}
+
+.third-btn-div {
+    padding-left: 450px;
+    padding-bottom: 100px;
+}
+
+/*fourth section*/
+
+.icon-part {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 800px;
+    width: 800px;
+    gap: 30px;
+    padding-left: 200px;
+}
+
+.icon-border {
+    border: 1px solid rgb(240, 137, 11);
+    border-radius: 1px;
+    height: 200px;
+    width: 200px;
+
+
+}
+
+.sponser {
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    gap: 50px;
+    height: 50px;
+    width: 50px;
+    padding-left: 20px;
 
 }
