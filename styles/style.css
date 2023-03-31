@@ -68,8 +68,13 @@
     padding-bottom: 50px;
 }
 
+/*2nd section*/
 
-/*seconed section*/
+.quick-list-btn-div {
+    padding-left: 820px;
+    padding-top: 20px;
+
+}
 
 .four-img {
     display: grid;
@@ -208,18 +213,38 @@
 
 .third-btn-div {
     padding-left: 450px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 /*fourth section*/
 
+.some-facts-div {
+    padding-left: 180px;
+    padding-bottom: 50px;
+}
+
+.some-facts {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+}
+
+.some-facts-paragraph {
+    color: rgb(144, 139, 139);
+    font-size: 16px;
+    font-weight: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+
 .icon-part {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    height: 800px;
-    width: 800px;
+    height: 300px;
+    width: 300px;
     gap: 30px;
-    padding-left: 200px;
+    padding-left: 180px;
+
 }
 
 .icon-border {
@@ -231,6 +256,8 @@
 
 }
 
+/*5th section*/
+
 .sponser {
     display: grid;
     grid-template-columns: repeat(5, 2fr);
@@ -238,30 +265,29 @@
     height: 50px;
     width: 50px;
     padding-left: 80px;
-    padding-top: 100px;
+    padding-bottom: 100px;
+
 
 }
 
 .sponser-writing {
     padding-left: 400px;
-    padding-top: 500px;
+    padding-top: 600px;
 }
 
 .sponser-h1 {
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 700px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-left: 80px;
-}
-
-.sponser-section {
-    padding-bottom: 200px;
+    padding-bottom: 10px;
 }
 
 .sponser-paragraph {
     color: darkgrey;
     font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
 }
 
 /*Extra section*/
@@ -269,18 +295,15 @@
 .brand-promote {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
+    gap: 15px;
     height: 100px;
     width: 100px;
     padding-left: 220px;
 }
 
-.promote-section {
-    padding-bottom: 100px;
-}
-
 .promote-writing {
     padding-left: 400px;
+    padding-bottom: 20px;
 }
 
 .promote-1 {
@@ -303,6 +326,7 @@
     width: 300px;
 }
 
+/*Footer section*/
 
 .footer {
     background-color: antiquewhite;
