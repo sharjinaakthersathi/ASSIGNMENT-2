@@ -2,24 +2,8 @@
     margin: 0;
 }
 
-
-@media only screen and (max-width: 780px) {
-
-    [class*="col-"] {
-        width: 100%;
-    }
-}
-
 .first-section {
     background-color: rgb(251, 242, 230);
-}
-
-@media screen and (max-width:480px) {
-
-    .first-section {
-        background-color: rgb(251, 242, 230);
-        width: 100%;
-    }
 }
 
 
@@ -58,14 +42,6 @@
     padding-left: 800px;
 }
 
-@media screen and(max-width:480px) {
-    .home-logo {
-        display: block;
-        padding-right: 100px;
-    }
-
-}
-
 .btn-1 {
     padding: 10px 15px 15px 15px;
     background-color: rgb(240, 137, 11);
@@ -90,14 +66,6 @@
     padding-bottom: 50px;
 }
 
-@media screen and(max-width:480px) {
-    .banner-img {
-        width: 100%;
-        height: auto;
-    }
-
-}
-
 /*2nd section*/
 
 .quick-list-btn-div {
@@ -116,24 +84,9 @@
 
 }
 
-@media screen and(max-width:480px) {
-    .four-img {
-        width: 50%;
-        height: auto;
-    }
-}
-
 .img-1 .img-2 .img-3 .img-4 {
     height: 200px;
     width: 200px;
-}
-
-@media screen and(max-width:480px) {
-    .img-1 .img-2 .img-3 .img-4 {
-        width: 50%;
-        height: auto;
-        flex-direction: column;
-    }
 }
 
 .section-two {
